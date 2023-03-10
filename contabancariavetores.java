@@ -1,6 +1,6 @@
 public static void main(String[] args){
-    scanner ler = new Scanner(system.in);//Scanner para leitura do teclado;
-    Conta clientes [] = new Conta[4];//Instanciar Conta com um vetor chamado clientes[] de tamanho 4.
+    scanner ler = new Scanner(system.in); //Scanner para leitura do teclado;
+    Conta clientes [] = new Conta[4]; //Instanciar Conta com um vetor chamado clientes[] de tamanho 4.
 
    //Para cada posição do vetor cliente [], deve-se criar uma instância de Conta! 
     for (int i = 0; i < clientes.length; i++){
