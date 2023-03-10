@@ -6,4 +6,5 @@ public class PrimeiroPrograma{
     int soma;
     soma = a + b;
     System.out.printf("A soma é: %d", soma);
+    //ou System.out.printf("A soma é: %d", a + b)
 }
