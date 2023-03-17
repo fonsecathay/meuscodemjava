@@ -1,3 +1,4 @@
+public class Main {
 public static void main(String[] args){
     scanner ler = new Scanner(system.in); //Scanner para leitura do teclado;
     Conta clientes [] = new Conta[4]; //Instanciar Conta com um vetor chamado clientes[] de tamanho 4.
@@ -25,4 +26,5 @@ public static void main(String[] args){
         System.out.printf("Saldo: %f \n", clientes[i].saldo);
 
     }
+}
 }
