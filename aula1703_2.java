@@ -41,29 +41,7 @@ public class Main {
       System.out.printf("Novo Valor: %f\n", resul_saque);
       resul_depos = conta2.deposito(600, resul_saque);
       System.out.printf("Novo Valor: %f\n", resul_depos);*/
-        scanner ler = new Scanner(system.in); //Scanner para leitura do teclado;
-        Conta clientes [] = new Conta[2]; //Instanciar Conta com um vetor chamado clientes[] de tamanho 4.
-    
-       //Para cada posição do vetor cliente [], deve-se criar uma instância de Conta! 
-        for (int i = 0; i < clientes.length; i++){
-            clientes[i] = new Conta();
-        }//Preencher os atributyos de cada instância no vetor Conta!
-        for (int i = 0; i < clientes.length; i++){
-            System.out.printf("-->Ddaos do %d Cliente--\n", i+1);
-            System.out.printf("Informe o CPF:");
-            clientes[i]. = ler.nextInt();
-            System.out.printf("Informe o Num Conta: ");
-            clientes[i].numconta = ler.nextIntI();
-            System.out.printf("Informe o Saldo: ");
-            clientes[i].saldo = ler.nextDouble();
-        }
-        for (int i = 0; i < clientes.length; i++){
-            System.out.printf("---Dados dos Clientes cadastrados ---\n");
-            System.out.printf("CPF: %s \n", clientes[i].nome);
-            System.out.printf("Núm. Conta: %d \n", clientes[i].numconta);
-            System.out.printf("Saldo: %f \n", clientes[i].saldo);
-    
-        }
+        
     }
     }
-  }
+  
