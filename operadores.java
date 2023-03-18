@@ -1,10 +1,11 @@
-package primeiroprograma;
-
-public class PrimeiroPrograma{
-    int a = 10;
-    int b = 5;
-    int soma;
-    soma = a + b;
-    System.out.printf("A soma é: %d", soma);
-    //ou System.out.printf("A soma é: %d", a + b)
+public class Main
+{
+	public static void main(String[] args) {
+	    int a = 5;
+	    int b = 8;
+	    int soma;
+		soma = a + b;
+		//System.out.printf("a soma é: %d", a + b);
+		System.out.printf("A soma de %d + %d é : %d", a, b, soma);
+	}
 }
