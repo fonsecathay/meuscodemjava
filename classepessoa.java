@@ -18,19 +18,17 @@ public class Main{
 public static void main(String[] args){
     Pessoa humanos1 = new Pessoa();
     humano1.nome = "Juliana";
-    cliente1.agencia = 8974;
-    cliente1.saldo = 4500;
+    humano1.idade = 23;
+    humano1.peso = 75;
 
-    Conta cliente2 = new Conta();
-    cliente2.nome = "João";
-    cliente2.agencia = 39;
-    cliente2.nconta = 78450;
-    cliente2.saldo = 8500;
+    Pessoa humanos2 = new Pessoa();
+    humano2.nome = "Carlos";
+    humano2.idade = 39;
+    humano2.peso = 72;
 
-    Conta cliente3 = new Conta();
-    cliente3.nome = "Jéssica";
-    cliente3.agencia = 3806;
-    cliente3.nconta = 17845;
-    cliente3.saldo = 5500;
+    Pessoa humanos3 = new Pessoa();
+    humano3.nome = "Ericka";
+    humano3.idade = 15;
+    humano3.peso = 60;
 }
 }
