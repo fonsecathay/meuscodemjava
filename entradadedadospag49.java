@@ -1,6 +1,5 @@
-package primeiroprograma;
 import java.util.Scanner;//classe scanner declara
-
+public class Main{
 public class PrimeiroPrograma{
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);//Instanciar e criar um objeto de Scanner usando o dispositivo padrão de entrada (System.in). 
@@ -11,4 +10,5 @@ public class PrimeiroPrograma{
                             //Se fosse double, então o método seria nextDouble.
         System.out.printf("Você digitou o número %d. \n", num);//informa o resultado
     }
+  }
 }
